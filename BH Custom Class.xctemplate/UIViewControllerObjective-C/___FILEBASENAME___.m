@@ -15,7 +15,6 @@
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 #pragma mark - LifeCyle
-
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
@@ -46,7 +45,7 @@
 
 #pragma mark - Intial Methods
 
-#pragma mark - Setter Getter Methods
+#pragma mark - Lazy
 
 #pragma mark - Target Methods
 

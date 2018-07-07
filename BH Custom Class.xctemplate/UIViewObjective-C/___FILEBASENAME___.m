@@ -11,32 +11,23 @@
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 #pragma mark - Intial Methods
-    
-- (instancetype)initWithFrame:(CGRect)frame
-{
+- (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
-    if (self)
-    {
+    if (self) {
         [self setUpSubViews];
-        [self setNeedsUpdateConstraints];
-        [self updateConstraints];
     }
     return self;
 }
 
 #pragma mark - Intial Methods
-
-
 // init subviews
--(void)setUpSubViews
-{
+- (void)setUpSubViews {
     
 }
 
-// adjust your special constraints during a constraints update pass
-- (void)updateConstraints
-{
-    [super updateConstraints];
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
 }
 
 #pragma mark - Private Method
@@ -46,12 +37,5 @@
 #pragma mark - Setter Getter Methods
 
 #pragma mark - Target Methods
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 @end
