@@ -19,21 +19,18 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         [self setUpSubViews];
-        [self setNeedsUpdateConstraints];
-        [self updateConstraints];
     }
     return self;
 }
 
 #pragma mark - Intial Methods
 // init subviews
--(void)setUpSubViews {
+- (void)setUpSubViews {
     
 }
 
-// adjust your special constraints during a constraints update pass
-- (void)updateConstraints {
-    [super updateConstraints];
+- (void)layoutSubviews {
+    [super layoutSubviews];
 }
 
 #pragma mark - Private Method
