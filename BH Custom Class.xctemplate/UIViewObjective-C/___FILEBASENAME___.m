@@ -8,11 +8,15 @@
 
 #import "___FILEBASENAME___.h"
 
+@interface ___FILEBASENAMEASIDENTIFIER___ ()
+
+@end
+
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 #pragma mark - Intial Methods
-- (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
+- (instancetype)init {
+    self = [super init];
     if (self) {
         [self setUpSubViews];
     }
@@ -20,7 +24,6 @@
 }
 
 #pragma mark - Intial Methods
-// init subviews
 - (void)setUpSubViews {
     
 }
@@ -30,12 +33,12 @@
     
 }
 
+#pragma mark - Target Methods
+
 #pragma mark - Private Method
 
 #pragma mark - External Delegate
 
-#pragma mark - Setter Getter Methods
-
-#pragma mark - Target Methods
+#pragma mark - Lazy
 
 @end
