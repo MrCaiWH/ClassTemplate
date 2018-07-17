@@ -8,11 +8,11 @@
 
 #import "___FILEBASENAME___.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___
+@interface ___FILEBASENAMEASIDENTIFIER___ ()
 
-+ (NSString *)identifier {
-    return [NSString stringWithUTF8String:object_getClassName([self class])];
-}
+@end
+
+@implementation ___FILEBASENAMEASIDENTIFIER___
 
 #pragma mark - Intial Methods
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
@@ -24,7 +24,6 @@
 }
 
 #pragma mark - Intial Methods
-// init subviews
 - (void)setUpSubViews {
     
 }
@@ -41,16 +40,7 @@
 
 #pragma mark - Target Methods
 
-/*
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
++ (NSString *)identifier {
+    return [NSString stringWithUTF8String:object_getClassName([self class])];
 }
-*/
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-    // Configure the view for the selected state
-}
-
 @end
