@@ -34,11 +34,9 @@
 
 #pragma mark - Private Method
 
-#pragma mark - External Delegate
+#pragma mark - Target Methods
 
 #pragma mark - Lazy
-
-#pragma mark - Target Methods
 
 + (NSString *)identifier {
     return [NSString stringWithUTF8String:object_getClassName([self class])];
