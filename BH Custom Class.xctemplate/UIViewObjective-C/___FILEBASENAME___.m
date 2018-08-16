@@ -19,12 +19,17 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setUpSubViews];
+        [self setupConstraint];
     }
     return self;
 }
 
 #pragma mark - Intial Methods
 - (void)setUpSubViews {
+    
+}
+
+- (void)setupConstraint {
     
 }
 
