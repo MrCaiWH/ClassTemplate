@@ -45,5 +45,7 @@
 #pragma mark - External Delegate
 
 #pragma mark - Lazy
-
+- (void)dealloc {
+    NSLog(@"%@-释放了",self.class);
+}
 @end
