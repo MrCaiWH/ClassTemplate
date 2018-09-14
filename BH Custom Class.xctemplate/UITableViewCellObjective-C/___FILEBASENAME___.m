@@ -41,4 +41,8 @@
 + (NSString *)identifier {
     return [NSString stringWithUTF8String:object_getClassName([self class])];
 }
+
+- (void)dealloc {
+    NSLog(@"%@-释放了",self.class);
+}
 @end
