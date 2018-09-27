@@ -9,7 +9,7 @@
 #import "___FILEBASENAME___.h"
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
-
+//@property (nonatomic, strong) KLViewModel *viewModel;
 @end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
@@ -24,6 +24,16 @@
     return self;
 }
 
+//- (instancetype)initWithViewModel:(KLFollowListViewModel *)viewModel {
+//    if (self = [super init]) {
+//
+//        _viewModel = viewModel;
+//        
+//        [self bindViewModel];
+//    }
+//    return self;
+//}
+
 #pragma mark - Intial Methods
 - (void)setUpSubViews {
     
@@ -37,6 +47,10 @@
     [super layoutSubviews];
     
 }
+
+//- (void)bindViewModel {
+//
+//}
 
 #pragma mark - Target Methods
 

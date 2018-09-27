@@ -8,6 +8,10 @@
 
 ___IMPORTHEADER_cocoaTouchSubclass___
 
+//@class KLViewModel;
+
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___
+
+//- (instancetype)initWithViewModel:(KLViewModel *)viewModel;
 
 @end
