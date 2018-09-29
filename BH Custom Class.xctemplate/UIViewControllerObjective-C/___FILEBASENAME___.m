@@ -25,8 +25,8 @@
     
 //    self.edgesForExtendedLayout = UIRectEdgeNone;
 //    
-//    [self.view addSubview:self.tabeView];
-//    [self.tabeView mas_makeConstraints:^(MASConstraintMaker *make) {
+//    [self.view addSubview:self.tableView];
+//    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
 //        make.edges.insets(UIEdgeInsetsZero);
 //    }];
     
